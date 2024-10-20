@@ -1,0 +1,60 @@
+body{
+    color:white;
+    background:black;
+    margin:0px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px rgb(109, 84, 84);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(109, 84, 84);
+}
+
+.titulo{
+    background: rgb(99,67,67);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.chamada-video{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.chamada-filme{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.chamada-video img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.chamada-video img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.chamada-filme h2{
+    color:rgb(109, 84, 84);
+}
